@@ -13,7 +13,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ULUKKBcLWDML5DSs8QOyHkOj9c6_fdtqEGwkaz1iyHw" name="google-site-verification">
     <link rel="canonical" href="https://www.dyoid.se" />
-    <link rel="stylesheet" href="./style.css" />
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,7 +46,7 @@
           type: "URL",
           url: "/dyoid.se-by-html.to.design-FREE-version---05/02/2025-16-40-36-CET/",
         },
-        69: { type: "URL", url: "https://www.dyoid.se/dyoidev" },
+        69: { type: "URL", url: "https://www.dyoid.se/devoid" },
         70: { type: "ALIAS", alias: "68" },
         71: { type: "ALIAS", alias: "68" },
         72: { type: "ALIAS", alias: "64" },
@@ -1897,6 +1897,24 @@
     rel="stylesheet"
   />
   <style>
+
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
     *,
     :before,
     :after {
